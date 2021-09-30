@@ -12,20 +12,17 @@ main>.container {
 
 .title {
     font-family: 'Bonheur Royale',
-    cursive;
+        cursive;
 
 }
 
 .body {
     font-family: 'Aguafina Script',
-    cursive;
+        cursive;
 }
 
 /* default styles */
 .header {
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-size: cover;
     background: linear-gradient(to right, #b993d6, #8ca6db);
 
 }
@@ -34,14 +31,16 @@ main>.container {
 @media only screen and (min-width: 992px) {
     .header {
         background-image: url("/img/DanielleWestLarge.png");
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: cover;
         min-height: 480px;
     }
 }
 
 /* Show small image on smaller screens */
-@media only screen and (min-width: 576px) and (max-width: 991px) {
+@media only screen and (min-width: 770px) and (max-width: 991px) {
     .header {
         background-image: url("/img/DaniellWestSmall.png");
     }
 }
-
